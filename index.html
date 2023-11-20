@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man</title>
+    <style>
+        body {
+            font-family: "Agency FB";
+            margin: 0;
+            font-size: 25px;
+        }
+
+        main {
+            padding: 32px;
+        }
+
+        #progress {
+            position: fixed;
+            top: 0;
+            width: 0%;
+            background-color: red;
+            height: 1em;
+            animation: progress-grow auto linear;
+            animation-timeline: scroll(root block)
+
+        }
+
+        #image {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        #image img {
+            width: 35%;
+        }
+
+        @keyframes progress-grow {
+            from {
+                width: 0%
+            }
+            to {
+                width: 100%
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="progress"></div>
+<main>
+
+
+    <header>
+        <h1>Spider-Man</h1>
+    </header>
+
+    <section>
+        <h2>Origin</h2>
+        <p>Spider-Man, also known as Peter Parker, is a fictional character and a superhero appearing in comics
+            published by Marvel Comics. He was created by writer Stan Lee and artist Steve Ditko, making his first
+            appearance in <em>Amazing Fantasy</em> #15 in 1962. Peter Parker was a brilliant but shy high school student
+            when he was bitten by a radioactive spider in a scientific experiment, granting him superhuman abilities.
+        </p>
+    </section>
+
+    <section>
+        <h2>Powers and Abilities</h2>
+        <p>Spider-Man possesses a unique set of arachnid abilities, including superhuman strength, enhanced agility,
+            quick reflexes, the ability to climb walls, and a "spider-sense" that allows him to anticipate danger.
+            Additionally, he is a scientific genius and uses his intelligence to create special devices and suits.</p>
+    </section>
+
+    <section>
+        <h2>Secret Identity</h2>
+        <p>Spider-Man's secret identity is Peter Parker, a freelance photographer. Throughout the stories, he has
+            grappled with the challenge of balancing his life as a superhero with his personal and professional
+            responsibilities.</p>
+    </section>
+
+    <section>
+        <h2>Allies and Friends</h2>
+        <p>Spider-Man has been a part of various superhero teams, including the Avengers and the Defenders. Some of his
+            closest allies include Mary Jane Watson, Gwen Stacy, Iron Man, and Daredevil.</p>
+    </section>
+
+    <section>
+        <h2>Enemies</h2>
+        <p>Spider-Man has faced a wide array of villains, including the Green Goblin, Doctor Octopus, Venom, the
+            Vulture, the Lizard, and many more. These antagonists have contributed to some of the character's most
+            iconic stories.</p>
+    </section>
+
+    <section>
+        <h2>Cinematic Adaptations</h2>
+        <p>Spider-Man has been adapted into several films, portrayed by actors such as Tobey Maguire, Andrew Garfield,
+            and Tom Holland. He has been a key part of the Marvel Cinematic Universe (MCU) and has starred in standalone
+            films exploring different aspects of his mythology.</p>
+    </section>
+
+    <section>
+        <h2>Legacy</h2>
+        <p>Spider-Man is one of Marvel Comics' most iconic characters and has left a lasting impact on popular culture.
+            His mantra "With great power comes great responsibility" has resonated with generations of readers and fans,
+            making him a symbol of heroism and perseverance.</p>
+    </section>
+
+    <section id="image">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Amazing_Fantasy_15.jpg" alt="" srcset="">
+    </section>
+</main>
+
+
+</body>
+</html>
